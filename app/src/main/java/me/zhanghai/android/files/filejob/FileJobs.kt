@@ -1275,7 +1275,7 @@ private fun FileJob.copyOrMove(
         }
     }
     var target = target
-    var replaceExisting = false
+    var replaceExisting = true
     var retry: Boolean
     do {
         retry = false
