@@ -39,8 +39,8 @@ class CopyOptions(
 }
 
 fun Array<out CopyOption>.toCopyOptions(): CopyOptions {
-    var replaceExisting = false
-    var copyAttributes = false
+    var replaceExisting = true
+    var copyAttributes = true
     var atomicMove = false
     var noFollowLinks = false
     var progressIntervalMillis = 0L
